@@ -10,5 +10,5 @@ https://github.com/CLF78/CodeManager2
 And open the GUPE8P.ini to generate a GCT
 
 ## DEVELOPERS
-`*_MCM_Format.txt` and `settings.py` are for MeleeCodeManager v4.4.1 by DRGN
+`2PReloaded_MCM.txt` and `settings.py` are for MeleeCodeManager v4.4.1 by DRGN
 Set the ISO to be read as v1.06 NTSC to properly edit the DOL.
