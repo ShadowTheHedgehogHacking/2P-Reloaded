@@ -1,4 +1,4 @@
-<div align="center"><h1>Shadow The Hedgehog: Reloaded</h1>
+<div align="center"><h1>2P Reloaded</h1>
 <img src="https://raw.githubusercontent.com/ShadowTheHedgehogHacking/2P-Reloaded/main/workspace/res/title_screen.jpg" align="center" />
 </div>
 
