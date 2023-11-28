@@ -5,7 +5,7 @@
 
 ## About
 
-### WARNING THIS IS NOT YET IN A RELEASE STATE. THIS MAY NOT WORK AT ALL IN ITS CURRENT FORM
+### WARNING THIS IS CONSIDERED BETA/TESTING. MAY NOT WORK ON REAL HARDWARE
 
 This project is a combination of the [2P-ShdTH](https://github.com/ShadowTheHedgehogHacking/2P-ShdTH) and [ShdTH-Reloaded](https://github.com/ShadowTheHedgehogHacking/ShdTH-Reloaded) mods with full feature parity.
 
