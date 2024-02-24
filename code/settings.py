@@ -3,7 +3,9 @@
 
 # Written in Python v2.7.12 by DRGN of SmashBoards (Daniel R. Cappel).
 version = 4.4
-#4.4.1 last tested version - dreamsyntax
+# Modified for Shadow The Hedgehog USA Memory Regions (Set Game version 1.06 when picking Shadow ISO) by dreamsyntax
+# 4.4.1 last tested version - dreamsyntax
+
 # Find the official thread here for usage and other documentation: 
 # http://smashboards.com/threads/melee-code-manager-easily-add-codes-to-your-game.416437/
 from collections import OrderedDict
@@ -19,7 +21,7 @@ globalFontSize = -12
 
 # So far, the value below is only used for determining a default revision when adding new code changes for a mod in the Mod Construction tab.
 # You should also have a DOL by this revision in the Original DOLs folder to add such code changes to a mod.
-defaultRevision = 'NTSC 1.02' # Should follow the revision string convention of "[region] [version]"
+defaultRevision = 'NTSC 1.06' # Should follow the revision string convention of "[region] [version]"
 
 # The following will ensure that the mod "Enable OSReport Print on Crash" is always installed in your game, as
 # long as it's also found in your Mods Library. Change this to False if you don't want this behavior.
@@ -37,7 +39,7 @@ alwaysEnableCrashReports = False
 #
 # You may also add regions. Just be sure that you know what you're doing and have tested the region, and that no regions overlap with one another!
 customCodeRegions = OrderedDict([
-    ( 'NTSC 1.06|Gen Regions', [ ( 0x4AC, 0x23E0 ) ] ), # Total space: 0x1F34
+    ( 'NTSC 1.06|Gen Regions', [ ( 0x4AC, 0x23E0 ) ] ), # Total space: 0x1F34 - This is what we use in Shadow the Hedgehog modding
 	# The regions in this first list are the same between all game revisions, hence "ALL" specified for the code region.
 	( 'ALL|Common Code Regions', [ ( 0x2C8, 0x398 ), ( 0x39C, 0x498 ), ( 0x4E4, 0x598 ), ( 0x5CC, 0x698 ),			# 0xD0,  0xFC,  0xB4, 0xCC 	= 0x34C
 								 ( 0x6CC, 0x798 ), ( 0x8CC, 0x998 ), ( 0x99C, 0xA98 ), ( 0xACC, 0xB98 ),			# 0xCC,  0xCC,  0xFC, 0xCC 	= 0x360
