@@ -17,22 +17,6 @@ NTSC 1.06 --- 0x800A2A64 ---- 480008C9 -> 60000000
 	-==-
 
 
-LightDash Exit State Change to Launched for Westopolis 2P Mod Version
-For Westopolis Only
-Allows for SkyDive to persist after light dashing in 2P Mod version
-[dreamsyntax]
-Revision ---- DOL Offset ---- Hex to Replace ---------- ASM Code -
-NTSC 1.06 --- 0x80089F34 ---- 38000002 -> Branch
-
-3DE08057 61EFD748
-81EF0000 2C0F0064
-38000017 41820008
-38000002 00000000
-
-
-	-==-
-
-
 DOES NOT WORK FOR 2PMOD YET Melee Weapon Core Revamp v2
 !!REQUIRES SHADOW.MTP MODIFICATION!!
 
