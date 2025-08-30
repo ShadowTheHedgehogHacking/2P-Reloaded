@@ -1,5 +1,5 @@
 #ステージパラメータ
-#2P RLD spawn positions 2025-08-28
+#2P RLD spawn positions 2025-08-30
 #Reloaded 1.2 Ranks
 
 [Practice]
@@ -219,7 +219,7 @@ MISSIONCOUNT_H : 1 1
 [Space]
 #Space Gadget
 PLAYER : 0 760 -150 47 0 90 0
-PLAYER : 1 760 -100 47 0 90 0
+PLAYER : 1 760 -10 47 0 90 0
 STARTSPD : 0 0 0 0
 STARTSPD : 1 0 0 0
 GOALEVENTPOS_N : 16923 60 3531
