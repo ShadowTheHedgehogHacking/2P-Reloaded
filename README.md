@@ -92,8 +92,6 @@ Nintendont should be configured as follows for the best experience:
 `Config` -> `Advanced` -> `CPU Clock Override slider` 
 ```
 Adjust clockspeed while running the game
-Note: Dolphin only saves this change for next run if your game is NOT running
-You should find the value that runs best, close the game, then set it again
 
 I recommend loading in Glyphic Canyon, have one player stay at the start,
 have the other go to the first area with enemies and Knuckles
