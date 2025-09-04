@@ -18,7 +18,7 @@ Experience all the enhancements of the Reloaded project with 2 players in Story 
 This mod is only compatible with Shadow: Reloaded v1.2 ROM. 
 
 Verify the ROM you are attempting to patch is a 1:1 Shadow: Reloaded v1.2 Widescreen GameCube ISO.
-If you have the original game, you can make a Shadow Reloaded v1.2 ISO by patching it [ShdTH-Reloaded](https://github.com/ShadowTheHedgehogHacking/ShdTH-Reloaded)
+If you have the original game, you can make a Shadow Reloaded v1.2 ISO by patching it here: [ShdTH-Reloaded](https://github.com/ShadowTheHedgehogHacking/ShdTH-Reloaded)
 
 GCZ/WIA/RVZ or any other format than ISO is not supported. Please convert to ISO, then compare your game to the table below
 
@@ -31,6 +31,7 @@ You can check your hashes by right-clicking your game in Dolphin's game list -> 
 | RELOADED WIDESCREEN | 608b69c4      | 246329735cd79fd0fe187c61b94487e75c42f1b7 |
 
 ### Summary
+0. Create a [Shadow Reloaded v1.2 WIDESCREEN ROM](https://github.com/ShadowTheHedgehogHacking/ShdTH-Reloaded) from your original game, if you haven't. The 2P patch applies to this rom.
 1. Patch your RELOADED WIDESCREEN ISO with the .xdelta of your choice
 2. Dolphin: Ensure you placed `GUPR8P.ini`, Enabled Cheats, and set Force Aspect ratio
 3. Nintendont: Ensure you placed `GUPR8P.gct` file next to `game.iso`, In Nintendont configuration, set `Cheats ON` and `Unlock Read Speed ON`
@@ -50,17 +51,17 @@ Expected Patch Results (v2.5)
 
 | PATCH              | CRC32 Hash    | SHA-1 Hash                               |
 | ------------------ | ------------- | ---------------------------------------- |
-| 64M-WIDESCREEN     | x      | x |
-| CONSOLE-WIDESCREEN | x      | x |
-| 64M                | x      | x |
-| CONSOLE            | x      | x |
+| 64M-WIDESCREEN     | 2e4dfe13      | d49b6efa1bd3c8a8fa4b1cc53ebc6ee0ed2998e6 |
+| CONSOLE-WIDESCREEN | 5c9694ef      | e9c07bc47a601b9a17ac7b612baa8e1770993bc2 |
+| 64M                | 0cc8b037      | f77a1c7d4b4159733c36615284396f18c53579be |
+| CONSOLE            | be5313a4      | d03bc407b8ad55798ffd8dc572d050f83e24a4f8 |
 
 ### Dolphin
 1. Get the latest Dolphin Emulator - [Dolphin 2506 or newer](https://dolphin-emu.org/download/)
 2. (Optional) We recommend keeping a separate Dolphin instance just for this mod. Before launching Dolphin, create an empty file `portable.txt` in the same folder as `Dolphin.exe`
 3. Launch Dolphin. On Dolphin's menu bar, click `File` -> `Open User Folder`. The folder that appears is your `<Dolphin User Folder>` in the below steps
 4. Copy/Move the two folders (`GameSettings` and `Load`) in `Dolphin Configuration (Required)` to `<Dolphin User Folder>`
-5. Move/Save the patched ISO you created earlier to the Path Dolphin detects your games. A new 2P Mod Shadow entry should appear in your Dolphin game list, with greater than 0 filesize, and with a custom banner. Use this when playing the game
+5. Move/Save the patched ISO you created earlier to the Path Dolphin detects your games. A new 2P Reloaded Mod Shadow entry should appear in your Dolphin game list, with greater than 0 filesize, and with a custom banner. Use this when playing the game
 6. If the game does not appear as you expect, select `View` -> `Purge Game List Cache` from Dolphin's menu bar
 7. Enable Cheats in `Dolphin -> Config`. Right click the game the list and choose `Properties -> Gecko Codes` to change any configuration codes
 8. Under `Dolphin -> Config -> Advanced` enable `CPU Clock Override` and try various values (CPU dependent). I highly recommend at least `150%` if your CPU can handle it. See [Dolphin FPS optimization (CPU variable)](#dolphin-fps-optimization) 
@@ -74,7 +75,7 @@ Expected Patch Results (v2.5)
 3. For convenience, the release includes pre-built GCTs for Widescreen and Original Aspect in both Vertical and Horizontal split screen modes. If creating your own GCT file and playing with Original Aspect Ratio, you should disable the `(Widescreen)` code
 ```
 Copy GUPR8P.gct to the same directory as your game.iso
- e.g. USB:/games/Shadow Reloaded [GUPR8P] should have:
+ e.g. USB:/games/2P Shadow Reloaded [GUPR8P] should have:
    game.iso
    GUPR8P.gct
  in the folder.
